@@ -1,0 +1,12 @@
+Cooldown: 100
+PetCooldown: 2
+CoolDownMessageEnable: true
+PetCoolDownMessageEnable: true
+CoolDownMessage: "&bYou cannot use a bandage yet"
+PetCoolDownMessage: "&bYou cannot heal your Pet yet"
+HealFactor: 5
+PetHealFactor: 5
+HealMessageEnable: true
+PetHealMessageEnable: true
+HealMessage: "&b-1 Bandage"
+PetHealMessage: "&bWholesome Healing"

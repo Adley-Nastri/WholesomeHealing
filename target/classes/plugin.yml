@@ -1,0 +1,29 @@
+name: WholesomeHealing
+version: 1.3
+api-version: 1.15
+main: me.thatjavaboi.wholesomehealing.Wholesome
+author: ThatJavaBoi
+description: Craftable Bandages to heal you and your pets
+commands:
+  wholesomehealing:
+    description: Base command for the WholesomeHealing plugin
+    usage: "/<command> [reload | update | info]"
+    aliases: [wh]
+
+  givebandage:
+    description: Gives a bandage
+    usage: "/<command> <amount> <player>"
+    aliases: [gb,givebandaid,plaster]
+    permission: wholesomehealing.give
+    permission-message: You dont have permission to give bandages
+
+  myhp:
+    description: Show your current HP
+    usage: "/<command>"
+    aliases: [hp]
+
+depend: [GlowAPI, ProtocolLib]
+
+
+
+
