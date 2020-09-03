@@ -66,7 +66,7 @@ public final class Wholesome extends JavaPlugin implements Listener {
                                 }
 
 
-                            } else if (le instanceof Cat) {
+                            }  if (le instanceof Cat) {
                                 try {
                                     if ((((Cat) le).isTamed() && ((Cat) le).getOwner().getName().equals(player.getName()))) {
 
@@ -78,7 +78,7 @@ public final class Wholesome extends JavaPlugin implements Listener {
                                 }
 
 
-                            } else if (le instanceof Parrot) {
+                            }  if (le instanceof Parrot) {
                                 try {
                                     if ((((Parrot) le).isTamed() && ((Parrot) le).getOwner().getName().equals(player.getName()))) {
 
